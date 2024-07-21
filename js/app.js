@@ -9,12 +9,6 @@ $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip()
     });
 
-$(document).addEventListener("DOMContentLoaded", function() {
-    var globeContainer = document.getElementById('clstr_globe'); 
-    globeContainer.style.width = '20px';
-    globeContainer.style.height = '20px';
-});
-
 
 // var frameNumber = 0, // start video at frame 0
 //     // lower numbers = faster playback
