@@ -11,8 +11,8 @@ $(document).ready(function() {
 
 $(document).addEventListener("DOMContentLoaded", function() {
     var globeContainer = document.getElementById('clstr_globe'); 
-    globeContainer.style.width = '400px';
-    globeContainer.style.height = '400px';
+    globeContainer.style.width = '20px';
+    globeContainer.style.height = '20px';
 });
 
 
