@@ -8,7 +8,13 @@ $(document).ready(function() {
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     });
-    
+
+$(document).addEventListener("DOMContentLoaded", function() {
+    var globeContainer = document.getElementById('clstr_globe'); 
+    globeContainer.style.width = '400px';
+    globeContainer.style.height = '400px';
+});
+
 
 // var frameNumber = 0, // start video at frame 0
 //     // lower numbers = faster playback
